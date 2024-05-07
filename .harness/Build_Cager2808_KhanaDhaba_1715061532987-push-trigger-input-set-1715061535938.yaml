@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_Cager2808_KhanaDhaba_1715061532987-push-trigger-input-set
+  identifier: Build_Cager2808_KhanaDhaba_1715061532987pushtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: HarnessHCSC
+  pipeline:
+    identifier: Build_Cager2808_KhanaDhaba_1715061532987
+    properties:
+      ci:
+        codebase:
+          build:
+            type: branch
+            spec:
+              branch: <+trigger.branch>
