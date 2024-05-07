@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_Cager2808_KhanaDhaba_1715078254135-pr-trigger-input-set
+  identifier: Build_Cager2808_KhanaDhaba_1715078254135prtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: SampleHarness
+  pipeline:
+    identifier: Build_Cager2808_KhanaDhaba_1715078254135
+    properties:
+      ci:
+        codebase:
+          build:
+            type: PR
+            spec:
+              number: <+trigger.prNumber>
